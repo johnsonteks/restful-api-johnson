@@ -14,7 +14,7 @@ class studentResource extends JsonResource
     public function __construct($resource, $status, $message)
     {
         $this->status = $status;
-        $this->$message = $message;
+        $this->message = $message;
         parent::__construct($resource);
     }
 
